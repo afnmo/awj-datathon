@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
-// import { logo } from "../../public/assets/assets";
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import  awjlogo  from "../assets/awjlogo.png";
+import awjlogo from "../assets/awjlogo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,11 +18,12 @@ const Footer = () => {
         </div>
 
         <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6">
-          <a href="#">حول</a>
-          <a href="#">خدماتنا</a>
-          <a href="#">كيف يعمل</a>
-          <a href="#">المساعدة</a>
+          <a href="#">About</a>
+          <a href="#">Our Services</a>
+          <a href="#">How It Works</a>
+          <a href="#">Help</a>
         </nav>
+        
         <div className="flex justify-center gap-6 mt-6">
           <a
             href="https://twitter.com/yourprofile"
@@ -51,7 +51,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className=" mt-8">جميع الحقوق محفوظة &copy; {currentYear}</p>
+        <p className="mt-8">All rights reserved &copy; {currentYear}</p>
       </div>
     </footer>
   );
