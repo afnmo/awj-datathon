@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: 'awj-datathon',
+    basePath: '/awj-datathon',
     distDir: 'dist',
     images: {
         unoptimized:true,
