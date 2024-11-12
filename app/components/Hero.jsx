@@ -9,7 +9,7 @@ const Hero = ({ id }) => {
   const router = useRouter();
 
   const handleButtonClick = () => {
-    window.open('https://awjj.useanything.com/onboarding', '_blank');
+    window.open('https://awjj.useanything.com/workspace/new', '_blank');
   };
 
   return (
